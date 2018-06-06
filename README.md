@@ -27,16 +27,16 @@ Install Node: https://nodejs.org/en/
 
 <b>Firebase rules for database</b>
 
-		 {
-		   "rules": {
-		    "users": {
-		      "$uid":{
-			".read" : "$uid === auth.uid",
-			".write": "$uid === auth.uid"
-		      }
-		    }
-		   }
-		 }
+	 {
+	   "rules": {
+	    "users": {
+	      "$uid":{
+		".read" : "$uid === auth.uid",
+		".write": "$uid === auth.uid"
+	      }
+	    }
+	   }
+	 }
 
 <b>HTML for Login.js</b>
 
