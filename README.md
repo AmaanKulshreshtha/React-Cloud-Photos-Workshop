@@ -101,7 +101,7 @@ Install Node: https://nodejs.org/en/
 		}
 	}  
 
-<b>API Key:</b> <code>AIzaSyAtKVJCCPmLP9p-voX2oxyXHq83fIwGwKw</code>
+<b>API Key:</b> <code></code>
 
 
 
