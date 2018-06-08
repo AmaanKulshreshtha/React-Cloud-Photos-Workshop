@@ -90,18 +90,6 @@ Install Node: https://nodejs.org/en/
 		</div>
 	</div>
 
-
-
-<b>Firebase rules for datastore</b>
-
-	service firebase.storage {
-		match /b/{bucket}/o {
-			match /{allPaths=**} {
-				allow read, write: if request.auth.uid != null;
-			}
-		}
-	}  
-
 <b>API Key:</b> <code></code>
 
 
