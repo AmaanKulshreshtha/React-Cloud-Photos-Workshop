@@ -8,7 +8,7 @@ Install Node: https://nodejs.org/en/
 	
 	<code>
 		npm install -g create-react-app
-		create-react-app doggy-cloud		
+		create-react-app react-cloud		
 		cd doggy-cloud
 		npm install axios firebase --save
 	</code>
