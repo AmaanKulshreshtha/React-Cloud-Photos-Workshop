@@ -4,6 +4,8 @@ Install Node: https://nodejs.org/en/
 
 <b>Run this on the terminal</b>
 
+<b> Note : Restart your terminal after installing create-react-app </b>
+	
 	<code>
 		npm install -g create-react-app
 		create-react-app doggy-cloud		
