@@ -6,12 +6,12 @@ Install Node: https://nodejs.org/en/
 
 <b> Note : Restart your terminal after installing create-react-app </b>
 	
-	<code>
+	
 		npm install -g create-react-app
 		create-react-app react-cloud		
 		cd react-cloud
 		npm install axios firebase --save
-	</code>
+	
 
 
 <b>Delete files mentioned below</b>
