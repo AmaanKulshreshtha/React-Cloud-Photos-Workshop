@@ -4,10 +4,28 @@ class Login extends Component {
     render(){
         return(
 			<div>
-				<p>{this.props.error}</p>
-				<input type="text"  onChange={this.props.email}/><br /> 
-				<input type="password" onChange={this.props.password}/><br /> 
-				<input type="submit"   onClick={this.props.login}/><br />
+				<nav className="navbar navbar-inverse navbar-fixed-top">
+					<a className="navbar-brand">React Cloud</a>
+				</nav>
+				<div className="container">
+					<div className="row">
+						<h1 className="content">Revolutionary Photo App</h1>
+						<p className="error">{this.props.error}</p>
+						<div className="form-cont">
+							<div id="form">
+								<div className="form-group">
+									<label htmlFor="emailID">Email address</label>
+									<input type="text" className="form-control" id="emailID" onChange={this.props.email} placeholder="Enter email" />
+								</div>
+								<div className="form-group">
+									<label htmlFor="password">Password</label>
+									<input type="password" className="form-control" id="password" onChange={this.props.password} placeholder="Password" />
+								</div>
+								<button className="btn btn-primary" id="login" onClick={this.props.login}>Log In or Sign Up</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
         )
     }
